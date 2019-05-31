@@ -1,2 +1,2 @@
 # sailwind.digital
-Company website.
+Codebase for the company website.

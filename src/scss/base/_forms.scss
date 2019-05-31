@@ -1,0 +1,43 @@
+input:not([type='checkbox']):not([type='radio']):not([type='submit']), 
+textarea {
+    background: var(--main-bg, white);
+    border: 2px solid var(--border-color, black);
+    width: 100%;
+
+    &:focus {
+        outline: none;
+        border: 0; 
+    }
+
+    &::-moz-focus-inner {
+        outline: none;
+        border: 0; 
+    }
+
+    &::-webkit-input-placeholder {
+        color: var(--text-fade, rgba(0,0,0,.3));
+    }
+
+    &::-moz-placeholder {
+        opacity: 1;
+        color: var(--text-fade, rgba(0,0,0,.3));
+    }
+
+    &:-ms-input-placeholder {
+        color: var(--text-fade, rgba(0,0,0,.3));
+    }
+    
+    &:-moz-placeholder {
+        color: var(--text-fade, rgba(0,0,0,.3));
+    }
+
+    &[disabled],
+    &[readonly] {
+        cursor: not-allowed;
+    }
+}
+
+label {
+    display: inline-block;
+    font-size: .8em;
+}

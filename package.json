@@ -1,0 +1,18 @@
+{
+  "name": "sailwind-digital",
+  "version": "1.0.0",
+  "description": "Website for Sailwind Digital",
+  "main": "index.js",
+  "author": "Sailwind Digital <noah@sailwind.digital>",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailwind-digital/sailwind.digital.git"
+  }
+}

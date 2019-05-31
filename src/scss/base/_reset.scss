@@ -1,0 +1,55 @@
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+    position: relative;
+}
+
+* {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: var(--main-bg, white);
+}
+
+footer, 
+header,
+main,
+article, 
+aside, 
+section,
+details, 
+menu,
+nav, 
+hgroup,
+figure, 
+figcaption {
+  display: block;
+}
+
+button, 
+input, 
+textarea, 
+select {
+    margin: 0;
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+img, 
+video, 
+svg {
+    max-width: 100%;
+}

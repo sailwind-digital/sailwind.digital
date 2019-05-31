@@ -1,0 +1,31 @@
+:root {
+
+    // colors
+    --white:           white;
+    --black:           black;
+    --primary:         teal;
+    --secondary:       orange;
+    --main-bg:           var(--white);
+    --text-color:        var(--black);
+    --text-fade:       rgba(0,0,0,.3);
+    --heading-color:     var(--primary);
+    --link-color:        var(--secondary);
+    --border-color:      var(--black);
+
+    // typography
+    --font-primary:        sans-serif;
+    --text-base-size:      1em;  
+    --text-scale-ratio:    1.2;
+    --btn-text-size:       var(--text-base-size);
+    --btn-spacing:         .5em, .75em;
+    --body-line-height:    1.4;
+    --heading-line-height: 1.2;
+    
+    // breakpoints
+    --bp-xs: 30rem;
+    --bp-sm: 48rem;
+    --bp-md: 64rem;
+    --bp-lg: 80rem;
+    --bp-xl: 90rem; 
+
+}
